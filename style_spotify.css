@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 22px;
+    width: 220px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    background-image: url("spotify_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    height: 40px;
+    width: 50%;
+}
+
+.nav-signin border{
+    border: 1px solid white;
+}
+
+.signup1{
+    width: 500px;
+    position: relative;
+    left: 260px;
+    text-align: center;
+    justify-content: space-evenly;
+    border-right: 2px solid white;
+}
+
+.signup2{
+    width: 300px;
+    position: relative;
+    left: 160px;
+    text-align: right;
+    justify-content: space-evenly;
+}
+.signup1 a{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.signup2 a{
+    color: rgb(218, 218, 218);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.signup1 a:hover{
+    color: #1ed760;
+}
+
+.signup2 a:hover{
+    color: #1ed760;
+}
+
+.sign-up-free{
+    height: 550px;
+    background-image: url("image2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Play-millions{
+    width: 800px;
+    position: relative;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin-left: 240px;
+    padding-top: 250px;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.hero-btn button{
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.hero-btn button:hover{
+    transform: scale(1.05);
+    background-color: #1ed760;
+    color: white;
+}
+
+.Why-spotify{
+    height: 400px;
+    text-align: center;
+    color: #000;
+    padding-top: 70px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Why-spotify2{
+    margin-top: 70px;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.symbol1,.symbol2,.symbol3,.symbol4{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ed760;
+    border-radius: 100px;
+    font-size: 60px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.box{
+    width: 200px;
+    text-align: center;
+}
+
+.box h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.box p{
+    margin-top: 10px;
+    margin-bottom: 70px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.girl{
+    height: 600px;
+    background-color: #1ed760;
+    background-image: url("girl-with-headphone2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.girl h3{
+    color: white;
+    display: flex;
+    align-items: left;
+    text-align: center;
+    width: 400px;
+    padding-top: 330px;
+    margin-left: 130px;
+}
+
+.got-questions{
+    height: 300px;
+    text-align: center;
+    color: #000;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+}
+
+.got-questions select{
+    height: 70px;
+    background-color: white;
+    font-size: 17px;
+    text-align: left;
+    width: 1060px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    border-color: rgb(227, 227, 227);
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+.logo2{
+    background-image: url("spotify_logo.png");
+    display: inline;
+    height: 55px;
+    width: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 90px;
+}
+
+.foot-panel1-box1{
+    background-color: #000;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: top;
+    font-size: 0.85rem;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: small;
+    font-weight: 300;
+    }
+
+ul p{
+    font-weight: 700;
+    margin-top: 58px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+ul a:hover{
+    color: #1ed760;
+}
+
+.social-media{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    margin-top: 90px;
+}
+
+.insta,.x,.fb{
+    border-radius: 50%;
+    background-color: rgb(45, 45, 45);
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
